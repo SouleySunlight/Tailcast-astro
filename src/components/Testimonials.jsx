@@ -1,30 +1,30 @@
 import { motion } from "framer-motion";
 
 import { QuoteIcon } from "../assets/icons/QuoteIcon";
-import testimonial1 from "../assets/images/testimonial1.png";
-import testimonial2 from "../assets/images/testimonial2.png";
-import testimonial3 from "../assets/images/testimonial3.png";
+import alexise from "../assets/images/alexise.webp"
+import testimonial2 from "../assets/images/yannism.png";
+import testimonial3 from "../assets/images/nathanb.jpg";
 
 const testimonialsData = [
   {
-    customerName: "John Watkins",
-    customerTitle: "Founder of Dashflow",
+    customerName: "Alexis Ego",
+    customerTitle: "Theodo's Solution architect",
     content:
-      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
-    image: testimonial1,
+      "Astonishing proof-of-concept for directus. I couldn't expect better from a financially and time free engineer",
+    image: alexise,
   },
   {
-    customerName: "John Watkins",
-    customerTitle: "Founder of Dashflow",
+    customerName: "Yannis Marecaux",
+    customerTitle: "Theodo's Sales",
     content:
-      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
+      "I really enjoyed Souleyman as a developper and as a person. He always know how to manage his time and is eager to help and learn new things",
     image: testimonial2,
   },
   {
-    customerName: "John Watkins",
-    customerTitle: "Founder of Dashflow",
+    customerName: "Nathan Boulanger",
+    customerTitle: "Software Engineer",
     content:
-      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
+      "It's always super cool to work on a project previously POCed by Souleyman. He makes things so much easier",
     image: testimonial3,
   },
 ];
@@ -43,7 +43,7 @@ export const Testimonials = () => (
           Testimonials
         </div>
         <div className="custom-block-big-title text-center mb-16 px-8 sm:px-24 md:px-48">
-          People like you love Tailcast
+          People like you love Souleyman
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-5 xl:gap-10 px-6 xl:px-0 items-center">
